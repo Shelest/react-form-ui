@@ -54,11 +54,10 @@ export function LoginForm() {
                         >
                             Google
                         </button>
-                        <button type="button"
-                                className="app-button app-button__with-ico app-button__with-ico__git"
-                        >
+
+                        <a className="app-button app-button__with-ico app-button__with-ico__git" href="https://github.com/Shelest/react-form-ui">
                             Github
-                        </button>
+                        </a>
                     </div>
 
                     <div className="app-divider">
