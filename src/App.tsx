@@ -12,21 +12,22 @@ import {ResetPasswordForm} from './components/ResetPasswordForm';
 function App() {
     const router = createBrowserRouter([
         {
-            path: "/",
+            path: process.env.PUBLIC_URL,
             element: <LoginForm/>,
         },
         {
-            path: "forgot-password",
+            path: process.env.PUBLIC_URL + "/forgot-password",
             element: <ForgotPasswordForm />,
         },
         {
-            path: "reset-password",
+            path: process.env.PUBLIC_URL + "/reset-password",
             element: <ResetPasswordForm />,
         }
     ]);
 
     return (
         <>
+
             <Header />
             <RouterProvider router={router} />
         </>
