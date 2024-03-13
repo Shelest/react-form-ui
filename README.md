@@ -57,4 +57,4 @@ You can learn more how to use it, in the [React Hook Form documentation](https:/
 
 ## Demo Link
 
-[React Form UI Demo](https://65f1b6a75b82932a86974878--snazzy-sfogliatella-6def99.netlify.app/)
+[React Form UI Demo](https://snazzy-react-form-ui.netlify.app/)
