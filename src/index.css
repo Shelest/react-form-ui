@@ -58,6 +58,9 @@ code {
     background: #ffffff;
     border: 1px solid #D3D8DC;
     border-radius: 6px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     color: #060E1E;
     cursor: pointer;
     font-family: "basis_grotesque_pro", sans-serif;
