@@ -171,10 +171,10 @@ code {
     border: 0;
     outline: none;
     position: absolute;
-    height: 20px;
-    width: 20px;
-    right: 14px;
-    top: 14px;
+    height: 30px;
+    width: 30px;
+    right: 9px;
+    top: 9px;
 }
 
 .app-input-wrapper__password-toggle::before,
@@ -186,14 +186,14 @@ code {
     height: 20px;
     width: 20px;
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 5px;
+    left: 5px;
     display: flex;
     align-items: center;
 }
 
 .app-input-wrapper__with-label .app-input-wrapper__password-toggle {
-    top: 42px;
+    top: 37px;
 }
 
 .app-input-wrapper__password-toggle::before {
@@ -204,8 +204,8 @@ code {
     width: 20px;
     z-index: 1;
     transform: rotate(45deg);
-    top: 9px;
-    left: 0;
+    top: 14px;
+    left: 5px;
 }
 
 .app-input-wrapper__password-toggle.unhashed::before {
