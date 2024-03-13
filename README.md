@@ -1,4 +1,14 @@
-# Getting Started with Create React App
+# Getting Started 
+
+To compile and init the project please use:
+
+### `npm install`
+
+- for dev environment
+### `npm start`
+
+- for prod environment
+### `npm run build`
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
